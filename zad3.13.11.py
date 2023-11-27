@@ -5,6 +5,7 @@ Created on Mon Nov 13 12:17:23 2023
 @author: student
 """
 
+
 class Property:
     def __init__(self, area, rooms, price, address):
         self.area = area
@@ -39,7 +40,8 @@ class Flat(Property):
 
 
 # Stworzenie obiektu klasy House
-house1 = House(area=150, rooms=4, price=300000, address="Katowicka 123", plot=500)
+house1 = House(area=150, rooms=4, price=300000,
+               address="Katowicka 123", plot=500)
 
 # Stworzenie obiektu klasy Flat
 flat1 = Flat(area=30, rooms=2, price=150000, address="Bytomska 456", floor=3)
@@ -48,5 +50,3 @@ flat1 = Flat(area=30, rooms=2, price=150000, address="Bytomska 456", floor=3)
 print(house1)
 print("\n")
 print(flat1)
-
-
