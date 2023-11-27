@@ -4,9 +4,12 @@ Created on Mon Nov  6 12:36:27 2023
 
 @author: student
 """
+
+
 def check(a, b, c):
     suma_ab = a + b
     return suma_ab >= c
+
 
 liczba1 = int(input("Podaj pierwszą liczbę: "))
 liczba2 = int(input("Podaj drugą liczbę: "))
